@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Color Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="title">Color Corverter</h1>
+    <hr>
+  </header>
+
+  <section class="container">
+    <section class="hex">
+      <H2 class="subtitle">Convert HEXA for RGB/RGBA</H2>
+
+      hexa: (#FFFFFF) <br>
+      <input type="text" id="js-color" class="color"> <br>
+
+      Opacity: (0.0 - 1.0)<br>
+      <input type="text" id="js-opacity" class="opacity"> <br>
+
+      <button type="" id="js-btnConversorRgb" class="btnConversorRgb"> Converte </button> <br>
+
+      Result: RGB(255, 255, 255) - RGBA(255, 255, 255, .5)<br>
+
+      <div id="js-resultRgb" class="resultRgb"></div> <br>
+
+    </section>
+
+    <section class="rgb">
+      <H2 class="subtitle">Convert RGB/RGBA for HEXA</H2>
+
+      RED: (0 - 255) <br>
+      <input id="ColorvalueHex1" type="text" class="color">  <br>
+      BLUE: (0 - 255) <br>
+      <input id="ColorvalueHex2" type="text" class="color"> 	<br>
+      GREEN: (0 - 255) <br>
+      <input id="ColorvalueHex3" type="text" class="color"> <br>
+
+      <button type="" id="conversorHEX" class="btnConversorRgb"> Converte </button> <br>
+
+      Result: (#FFFFFF) <br>
+      <div id="resultColorHexHtml" class="resultHex"></div> <br>
+
+    </section>
+
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
